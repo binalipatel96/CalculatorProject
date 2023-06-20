@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <div>
+    <h1>Calculator Project - Binali Patel</h1>
+  </div>
+  <table>
+    <tr>
+      <td colspan=5></td>
+    </tr>
+    <tr>
+      <td colspan=5><input class="input_field_text" type="text" name="displayOutput" id="displayOutput" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="c" class="txtgrey" onclick="clr()" /> </td>
+      <td><input type="button" value="<--" class="txtgrey" onclick="backspace()" /> </td>
+      <td><input type="button" value="=" class="txtgrey" onclick="solve()" /> </td>
+      <td><input type="button" value="π" class="txtblue" onclick="Pivalue()" /> </td>
+      <td><input type="button" value="%" onclick="Percent()" /> </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="7" class="txtblack" onclick="display('7')" /> </td>
+      <td><input type="button" value="8" class="txtblack" onclick="display('8')" /> </td>
+      <td><input type="button" value="9" class="txtblack" onclick="display('9')" /> </td>
+      <td><input type="button" value="x^" class="txtblue" onclick="expValue()" /> </td>
+      <td><input type="button" value="/" onclick="display('/')" /> </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="4" class="txtblack" onclick="display('4')" /> </td>
+      <td><input type="button" value="5" class="txtblack" onclick="display('5')" /> </td>
+      <td><input type="button" value="6" class="txtblack" onclick="display('6')" /> </td>
+      <td><input type="button" value="ln" class="txtblue" onclick="logvalue()" /> </td>
+      <td><input type="button" value="*" onclick="display('*')" /> </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="1" class="txtblack" onclick="display('1')" /> </td>
+      <td><input type="button" value="2" class="txtblack" onclick="display('2')" /> </td>
+      <td><input type="button" value="3" class="txtblack" onclick="display('3')" /> </td>
+      <td><input type="button" value="√" class="txtblue" onclick="squarroot()" /> </td>
+      <td><input type="button" value="-" onclick="display('-')" /> </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="±" onclick="changeSign()" /> </td>
+      <td><input type="button" value="0" class="txtblack" onclick="display('0')" /> </td>
+      <td><input type="button" value="." onclick="display('.')" /> </td>
+      <td><input type="button" value="x2" class="txtblue" onclick="square()" /> </td>
+      <td><input type="button" value="+" onclick="display('+')" /> </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="(" onclick="display('(')" /> </td>
+      <td><input type="button" value=")" onclick="display(')')" /> </td>
+      <td><input type="button" value="sin" onclick="sin()" /> </td>
+      <td><input type="button" value="cos" onclick="cos()" /> </td>
+      <td><input type="button" value="tan" onclick="tan()" /> </td>
+    </tr>
+  </table>
+</body>
+<footer>
+  <p>&copy; 2021 Binali Patel - 8739266 </p>
+</footer>
+
+</html>
